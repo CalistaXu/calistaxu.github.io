@@ -7,7 +7,12 @@ body {
 a {
   text-decoration: none;
 }
-
+.about {
+  background-image: url(../images/works/poster.png);
+  background-size: cover;
+  height: 1400px;
+  font-family: emoji;
+}
 a,
 a:visited {
   color: inherit;
@@ -96,7 +101,6 @@ a:active {
 .name {
   text-shadow: 3px 3px black;
   color: ghostwhite;
-
   font-size: xx-large;
   font-weight: bold;
 }
@@ -105,8 +109,24 @@ h1 {
   text-align: center;
   font-size: 60px;
 }
+.h {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px white;
+}
 h2 {
   text-align: center;
+}
+.h2 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-shadow: 3px 3px black;
+  font-weight: bold;
+  padding-bottom: 20px;
 }
 
 .projects {
@@ -117,7 +137,6 @@ h2 {
 
 .row {
   display: flex;
-
   padding-bottom: 50px;
 }
 
@@ -142,4 +161,34 @@ h2 {
 .work {
   max-width: 70%;
   max-height: 100%;
+}
+
+.r {
+  width: 80%;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+li {
+  width: 60%;
+  margin: auto;
+  color: white;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+.contact {
+  width: 33%;
+  font-size: 22px;
+  color: white;
+}
+.exp {
+  text-shadow: 3px 3px black;
+  font-weight: bold;
+}
+
+li:hover {
+  text-shadow: none;
+  color: coral;
 }
