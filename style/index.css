@@ -1,0 +1,145 @@
+body {
+  height: 1500px;
+  font-family: emoji;
+  margin: 0px;
+  background-color: #9eccf9;
+}
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+.pro a:hover,
+.pro a:active {
+  color: coral;
+  text-shadow: 1px 1px black;
+}
+
+a:hover,
+a:active {
+  color: deeppink;
+  text-shadow: 1px 1px black;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 100%;
+  margin: auto;
+}
+
+.banner {
+  padding: 20px;
+  text-align: center;
+  height: 100px;
+}
+
+.navi {
+  text-shadow: 3px 3px black;
+  color: ghostwhite;
+  text-align: center;
+  height: 100px;
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.quick {
+  text-shadow: 2px 2px grey;
+  color: wheat;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: cursive;
+  width: 60%;
+  margin: auto;
+}
+
+.quick a:hover,
+.quick a:active {
+  color: coral;
+  text-shadow: none;
+}
+
+.nex {
+  float: right;
+}
+
+.bar {
+  display: flex;
+  margin-top: 20px;
+}
+
+.tab {
+  width: 30%;
+  margin: auto;
+}
+.pro {
+  /* font-weight: normal; */
+  font-size: x-large;
+  text-shadow: none;
+  color: darkblue;
+  text-shadow: 1px 1px grey;
+}
+.divider1 {
+  background-image: url(../images/banner4.gif);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  background-attachment: fixed;
+}
+
+.name {
+  text-shadow: 3px 3px black;
+  color: ghostwhite;
+
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+h2 {
+  text-align: center;
+}
+
+.projects {
+  color: black;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.row {
+  display: flex;
+
+  padding-bottom: 50px;
+}
+
+.col {
+  margin: auto;
+  width: 30%;
+  height: 500px;
+}
+
+.works {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contianer {
+  width: 100%;
+  height: 1200px;
+  text-align: center;
+}
+
+.work {
+  max-width: 70%;
+  max-height: 100%;
+}
